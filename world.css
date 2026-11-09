@@ -1,1 +1,13 @@
-/* Add your own styles */
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #cddbf1;
+    text-align: center;
+}
+header{
+    background-color: #426090;
+    padding: 20px;
+    color: white;
+}
+#controls{
+    margin-top: 20px;
+}
