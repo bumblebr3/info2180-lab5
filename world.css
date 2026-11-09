@@ -11,3 +11,15 @@ header{
 #controls{
     margin-top: 20px;
 }
+
+table,tr,td{
+    margin-top: 40px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    background-color: rgba(47, 77, 123, 0.5);
+}
