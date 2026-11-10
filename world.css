@@ -12,14 +12,43 @@ header{
     margin-top: 20px;
 }
 
-table,tr,td{
-    margin-top: 40px;
+table,tr{
     border: 1px solid #000;
     border-collapse: collapse;
+    margin: auto;
 }
-
+tr{
+   border: 1px solid #000; 
+}
+td{
+    border: 1px solid #000;
+    height: 30px;
+}
 th{
     border: 1px solid #000;
-    border-collapse: collapse;
     background-color: rgba(47, 77, 123, 0.5);
+    height: 30px;
+}
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #398959;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #236b53;
+    transition: ease-in-out 0.3s;
+}
+input{
+    height: 35px;
+    width: 350px;
+}
+
+#result{
+    text-align: center;
 }
